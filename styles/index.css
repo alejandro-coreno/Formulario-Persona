@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #eee
+}
+
+#formulario{
+    background-color: #fff;
+    width: 30%;
+    margin: 50px auto;
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 2rem 0;
+}
+
+.title{
+    color: rgb(37, 37, 226);
+    letter-spacing: 1px;
+}
+
+.caja{
+    width: 70%;
+    position: relative;
+}
+
+.caja input{
+    width: 100%;
+    padding: .9rem;
+    font-weight: bold;
+    outline: none;
+    border: 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+input::placeholder{
+    font-weight: 800;
+    font-style: italic;
+}
+
+.btn{
+    width: 70%;
+    border-radius: 10px;
+    padding: .6rem;
+    background: rgb(40, 40, 245);
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: .9rem;
+    transition: all .5s;
+}
+
+
+.btn:hover{
+    background: rgb(25, 25, 187);
+}
+
+
+.error{
+    color: red;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.enviado{
+    color: green;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
